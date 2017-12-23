@@ -1,6 +1,6 @@
 var port = 8000; // Указываем порт на котором у на стоит сокет
 
-var socket = io.connect('http://nodejschat-nodejschat123.193b.starter-ca-central-1.openshiftapps.com:' + port,{'forceNew':true }); 
+var socket = io.connect('ws://nodejschat-nodejschat123.193b.starter-ca-central-1.openshiftapps.com:' + port,{'forceNew':true }); 
 // Тут мы объявляем "socket" (дальше мы будем с ним работать) 
 // и подключаемся сразу к серверу через порт
 
